@@ -2,6 +2,10 @@
 
 @section('content')
 
+<a href="{{ route('users.create') }}">Adicionar</a>
+
+<hr>
+
 <h2>Users</h2>
 
 <ul>
