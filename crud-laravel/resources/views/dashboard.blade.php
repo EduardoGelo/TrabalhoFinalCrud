@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_br">
 
 <head>
     <meta charset="UTF-8">
@@ -54,13 +54,7 @@
         /* Cor do botão ao passar o mouse */
     }
 
-    body,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
+    body, h1, h2, h3, h4, h5, h6 {
         font-family: "Lato", sans-serif
     }
 
@@ -89,25 +83,47 @@
         <div class="w3-row-padding w3-padding-64 w3-container">
             <div class="w3-content">
                 <div class="w3-twothird">
-                    <h1>Lorem Ipsum</h1>
-                    <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+                    <h1>Introdução:</h1>
+                    <h5 style="text-align: justify" class="w3-padding-32">&emsp;&emsp;&emsp;Adquira aqui os melhores produtos para você que curte artesanatos!
+                    </h5>
 
-                    <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p style="text-align: justify" class="w3-text-grey">&emsp;&emsp;&emsp;Transforme suas ideias em realidade com o nosso serviço de agendamento de artesanatos personalizados. Encomende seus produtos e sua quantidade livremente, feitos especialmente para você, com todo o carinho e dedicação que só o artesanato pode oferecer. Seja para decorar, presentear ou dar aquele toque especial à sua casa, estamos aqui para materializar suas inspirações!</p>
                 </div>
-<!-- ESSE FA TA DESREGULADO. AJEITA AS ASPAS -->
+
                 <div class="w3-third w3-center">
-                    <i class="fa fa-paperclip class="fa fa-paperclip style="font-size: 100px; w3-padding-64 w3-text-pink"></i>
+                    <i style="font-size: 110px" class="fa fa-paint-brush w3-padding-64 w3-text-pink"></i>
                 </div>
             </div>
         </div>
+
+        <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i style="font-size: 110px" class="fa fa-check-circle w3-padding-64 w3-text-pink w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Detalhes da compra</h1>
+      <h5 style="text-align: justify" class="w3-padding-32">&emsp;&emsp;&emsp;Faça seu pedido na página de agendamentos.
+
+      <p style="text-align: justify" class="w3-text-grey">&emsp;&emsp;&emsp;No momento em que você solicitar um pedido, o administrador entrará em ação transformando você em um cliente. O produto é fabricado a mão em nosso estabelecimento, para chegar até você pelos correios. Após isso é só aproveitar seu produto de artesanato!</p>
+    </div>
+  </div>
+</div>
+
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Desenvolvido por <a href="" target="_blank">Eduardo Ângelo Nº6</a></p>
+</footer>
+
+
     </x-app-layout>
 </body>
 
