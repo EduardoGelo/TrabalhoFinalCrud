@@ -1,6 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artes da Tia Eva</title>
+</head>
+<body>
 <x-guest-layout>
     <form method="POST" action="{{ route('register') }}">
         @csrf
+
+        <x-application-logo style="height: 16px; width: 32px;" class="block fill-current text-gray-800" />
+
+        <div class="flex items-center justify-center font-bold text-2xl">
+            <h1>REGISTRAR</h1>
+        </div>
 
         <!-- Name -->
         <div>
@@ -40,7 +54,7 @@
         </div>
 
         <div class="flex items-center justify-end mt-4">
-            <a class="underline text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dark:focus:ring-offset-gray-800" href="{{ route('login') }}">
+            <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('login') }}">
                 {{ __('Already registered?') }}
             </a>
 
@@ -50,3 +64,6 @@
         </div>
     </form>
 </x-guest-layout>
+
+</body>
+</html>
