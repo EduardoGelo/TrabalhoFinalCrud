@@ -120,7 +120,7 @@
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
  </div>
- <p>Desenvolvido por <a href="" target="_blank">Eduardo Ângelo Nº6</a></p>
+ <p>Desenvolvido por Eduardo Ângelo Nº6</p>
 </footer>
 
 

@@ -11,7 +11,10 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
-        //
+        $middleware->alias([
+// no video tinha uma virgula depois do class n sei pq
+            'admin' => \App\Http\Middleware\Admin::class,
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //
